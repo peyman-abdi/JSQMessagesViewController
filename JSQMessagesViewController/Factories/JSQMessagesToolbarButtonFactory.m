@@ -44,7 +44,7 @@
 
 + (UIButton *)defaultSendButtonItem
 {
-    NSString *sendTitle = [NSBundle jsq_localizedStringForKey:@"send"];
+    NSString *sendTitle = @"ارسال";
 
     UIButton *sendButton = [[UIButton alloc] initWithFrame:CGRectZero];
     [sendButton setTitle:sendTitle forState:UIControlStateNormal];
